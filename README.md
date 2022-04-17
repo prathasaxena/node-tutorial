@@ -2,11 +2,11 @@
 
  window is used to access global variables
 
-global.console.log
+```global.console.log```
 
 in node we don't have window, we have global
 
-Modules
+# Modules
 
 variables and function defined in a file is not available in global, because their scope is limited to the file(in client side JS this does not hold true, and variables can be accessed in window scope)
 
@@ -16,7 +16,7 @@ one module is main module.
 
 
 
-#Creating Module
+# Creating Module
 
 add a file logger.js
 
@@ -43,7 +43,7 @@ you are returning an object from module, but if you export it as(object would be
 
 Just importing the function log
 
-#Module Wrapper function
+# Module Wrapper function
 
 node creates Module wrapper function for every module, which looks like
 
@@ -64,6 +64,6 @@ require function is not global, but local to each file.
 
 
 
-#Path Module
+# Path Module
 
 File System, HTTP, OS, Path, Process, Query String, Stream.
