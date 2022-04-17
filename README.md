@@ -67,3 +67,9 @@ require function is not global, but local to each file.
 # Path Module
 
 File System, HTTP, OS, Path, Process, Query String, Stream.
+
+## Events
+
+Signal indicates something has happened in the application.
+In Node we can use HTTP to create a web server, and HTTP listens to a port.
+On request HTTP raise an event. Our job is to read that request and repond.
