@@ -73,3 +73,8 @@ File System, HTTP, OS, Path, Process, Query String, Stream.
 Signal indicates something has happened in the application.
 In Node we can use HTTP to create a web server, and HTTP listens to a port.
 On request HTTP raise an event. Our job is to read that request and repond.
+
+Create class to catch events to avoid modular conflict.
+Use the same class to create and catch events.
+
+See the logger file
