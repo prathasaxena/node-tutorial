@@ -59,7 +59,7 @@ ways to export
 
 ```exports.log = log```
 
-<del> exports = log </del> (exports a ref to is module.exports, can't change that)```
+ <del> <s> exports = log </s> </del> (exports a ref to is module.exports, can't change that)
 
 
 
