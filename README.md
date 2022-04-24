@@ -54,9 +54,12 @@ node creates Module wrapper function for every module, which looks like
 ways to export
 
 ```module.exports.log = log```
+
 ```module.exports = log```
+
 ```exports.log = log```
-```exports = log (exports a ref to is module.exports, can't change that)```
+
+<del> exports = log </del> (exports a ref to is module.exports, can't change that)```
 
 
 
