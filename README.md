@@ -78,3 +78,68 @@ Create class to catch events to avoid modular conflict.
 Use the same class to create and catch events.
 
 See the logger file
+
+## NPM
+
+NPM comes with node, interdependent
+to add package json to your project run
+```npm init```
+ or
+```npm init --yes```
+
+## Semantic versioning
+
+"4.13.6" == Major.Minor.Patch
+Patch  = bugs
+Minor = add new feature that doesnt break existing proj
+Major = changes that break existing proj
+
+```^ ==> 4.x ```
+```~ ==> 4.13.x```
+
+```npm list```
+to check the dependencies and their dependencies with their version
+
+```npm list --depth=0```
+to remove nested dependencies
+
+```npm view package-name```
+to see the metadata and dependencies
+
+```npm view package-name dependencies```
+
+```npm view package-name versions```
+
+```npm outdated```
+current, wanted, Latest 
+
+```npm update```
+update to wanted 
+
+```npm-check-updates```
+update all package to latest
+
+## dev dependencies
+
+test , linting packages that should not go in 
+deployment
+
+``` npm i package-name --save-dev```
+
+## publish your package
+
+``` npm adduser ```
+to create an account
+
+``` npm login ```
+if you have an account
+
+``` npm publish ```
+if permission error, create unique name in package.json
+
+``` npm version major/minor/patch ```
+ update npm version
+
+``` npm publish ``` 
+
+
