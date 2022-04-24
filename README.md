@@ -145,4 +145,27 @@ if permission error, create unique name in package.json
 
 ``` npm publish ``` 
 
+## RESTful services
+REpresentational State transfer
 
+"Get"
+"Put"
+"Post"
+"Delete"
+
+## nodemon
+node monitor
+install globally
+
+```npm i -g nodemon```
+
+run application using nodemon to avoid restarting your app after making changes
+
+## set environment variable
+
+run on cmd in same directory
+
+```export PORT=5000```
+
+access it in proj by
+```process.env.port```
