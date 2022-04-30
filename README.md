@@ -169,3 +169,17 @@ run on cmd in same directory
 
 access it in proj by
 ```process.env.port```
+
+## route paramerters
+
+describe route parameter using a :colon, followed by variable name
+for eg: 
+"api/post/:id"
+
+Route parameter vs query parameter
+route param => required values
+query parameters => optional values
+
+use
+```app.use(express.json())```
+as a middleware to convert express res data to JSON
