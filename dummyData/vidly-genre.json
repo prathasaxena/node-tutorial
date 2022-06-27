@@ -1,0 +1,27 @@
+{
+    "genre" : [
+        "Rock",
+        "Indie",
+        "Pop",
+        "electric",
+        "R&B",
+        "Rap",
+        "Trance",
+        "Metal",
+        "hip-hop"
+    ],
+    
+    "Rock": [
+        "Purple Haze",
+        "Whole Lotta Love",
+        "Sympathy for the Devil"
+    ],
+    "Trance" : [
+        "Pigments DJ Version",
+        "Do the Right Thing Extended Mix"
+    ],
+    "R&B" : [
+        "Only girl"
+    ]
+
+}
