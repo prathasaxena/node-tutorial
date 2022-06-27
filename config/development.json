@@ -1,0 +1,6 @@
+{
+    "name" : "app-development",
+    "mail" : {
+        "server" : "https://localhost:3000/"
+    }
+}

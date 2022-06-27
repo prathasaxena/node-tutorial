@@ -183,3 +183,21 @@ query parameters => optional values
 use
 ```app.use(express.json())```
 as a middleware to convert express res data to JSON
+
+## middleware 
+route handler are in a way middleware.
+We can put custom middleware functions. 
+Used for login, authentication, authentication. 
+Middleware functions are called in sequence.
+Should put each middleware in different module.
+
+## debugger
+
+```npm i debug```
+
+export DEBUG=app:arbitary
+or
+DEBUG=app:arbitary nodemon app.js
+
+import
+const debug = require("debug")("app:arbitary")

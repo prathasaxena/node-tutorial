@@ -1,0 +1,6 @@
+{
+    "name" : "app-production",
+    "mail" : {
+        "server" : "https://abc.api.com/"
+    }
+}

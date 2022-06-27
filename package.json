@@ -18,6 +18,8 @@
   "homepage": "https://github.com/prathasaxena/node-tutorial#readme",
   "keywords": [],
   "dependencies": {
+    "config": "^3.3.7",
+    "debug": "^4.3.4",
     "express": "^4.17.3",
     "joi": "^17.6.0"
   }
